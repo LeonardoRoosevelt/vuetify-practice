@@ -44,3 +44,6 @@ export default {
   })
 }
 </script>
+<style>
+  @import '../sass/app-default.scss';
+</style>
