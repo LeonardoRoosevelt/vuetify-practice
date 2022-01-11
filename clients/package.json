@@ -11,6 +11,8 @@
     "i18n:report": "vue-cli-service i18n:report --src \"./src/**/*.?(js|vue)\" --locales \"./src/locales/**/*.json\""
   },
   "dependencies": {
+    "@aws-amplify/api": "^4.0.30",
+    "@aws-amplify/core": "^4.3.12",
     "core-js": "^3.6.5",
     "dayjs": "^1.10.7",
     "lodash": "^4.17.21",
