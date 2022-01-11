@@ -1,7 +1,7 @@
 import Amplify from '@aws-amplify/core'
 
 export default {
-  setAmplify(config) {
+  setAmplify (config) {
     const awsConfig = {
       API: {
         endpoints: [
