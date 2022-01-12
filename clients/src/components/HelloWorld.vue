@@ -12,8 +12,12 @@
 
       <v-col class="mb-4">
         <h1 class="display-2 font-weight-bold">
-          Welcome to Vuetify Practice
+          {{ title }}
         </h1>
+      </v-col>
+      <v-col class="mb-4">
+        <v-btn class="display-2 font-weight-bold" data-testid="button" @click="title = 'Hello'">
+        </v-btn>
       </v-col>
     </v-row>
   </v-container>
@@ -24,6 +28,7 @@ export default {
   name: 'HelloWorld',
 
   data: () => ({
+    title: 'Welcome to Vuetify Practice'
   })
 }
 </script>

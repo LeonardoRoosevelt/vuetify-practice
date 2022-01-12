@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HelloWorld.vue True Test 1`] = `
+<div class="container" title="Welcome to Vuetify Practice">
+  <div class="row text-center">
+    <div class="col col-12">
+      <div class="v-image v-responsive my-3 theme--light" style="height: 200px;">
+        <div class="v-responsive__content"></div>
+      </div>
+    </div>
+    <div class="mb-4 col">
+      <h1 class="display-2 font-weight-bold">
+        Welcome to Vuetify Practice
+      </h1>
+    </div>
+  </div>
+</div>
+`;
